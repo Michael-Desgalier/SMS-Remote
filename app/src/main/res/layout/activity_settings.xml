@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="40dp"
+                android:text="Settings" />
+
+            <ImageButton
+                android:id="@+id/btnHelp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:src="@drawable/help_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:padding="0dp"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:layout_centerHorizontal="true"
+                android:text="Phone number" />
+
+            <EditText
+                android:id="@+id/etPhoneNbr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:ems="13"
+                android:inputType="phone"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_centerHorizontal="true"
+                android:text="Command 1" />
+
+            <EditText
+                android:id="@+id/etCommand1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="215dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:ems="13"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:scrollbars="vertical" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1115dp"
+                android:layout_centerHorizontal="true"
+                android:text="Save"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="360dp"
+                android:layout_centerHorizontal="true"
+                android:text="Command 2" />
+
+            <EditText
+                android:id="@+id/etCommand2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="375dp"
+                android:ems="13"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:layout_centerHorizontal="true"
+                android:scrollbars="vertical" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:layout_centerHorizontal="true"
+                android:text="Command 3" />
+
+            <EditText
+                android:id="@+id/etCommand3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="525dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:ems="13"
+                android:lines="4"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="660dp"
+                android:layout_centerHorizontal="true"
+                android:text="First button name" />
+
+            <EditText
+                android:id="@+id/etButtonName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="675dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:ems="13"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="750dp"
+                android:layout_centerHorizontal="true"
+                android:text="Second button name" />
+
+            <EditText
+                android:id="@+id/etButtonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="765dp"
+                android:layout_centerHorizontal="true"
+                android:ems="13"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="840dp"
+                android:layout_centerHorizontal="true"
+                android:text="Third button name" />
+
+            <EditText
+                android:id="@+id/etButtonName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="855dp"
+                android:layout_centerHorizontal="true"
+                android:ems="13"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="930dp"
+                android:layout_centerHorizontal="true"
+                android:text="Reset Command" />
+
+            <EditText
+                android:id="@+id/etCommandReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="945dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:ems="13"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1020dp"
+                android:layout_centerHorizontal="true"
+                android:text="Refresh Command" />
+
+            <EditText
+                android:id="@+id/etCommandRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="1035dp"
+                android:layout_centerHorizontal="true"
+                android:ems="13"
+                android:inputType="text"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

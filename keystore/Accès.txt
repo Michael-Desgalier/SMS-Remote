@@ -1,0 +1,5 @@
+Path password: fE5w383nJ7JEWkd6
+
+Alias: sms-remote
+
+Key password: fE5w383nJ7JEWkd6
