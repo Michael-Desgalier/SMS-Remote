@@ -15,5 +15,5 @@ In the settings you can set :
 - The first button's name
 - The second button's name
 - The third button's name
-- The refresh button's commands
-- The reset button's commands
+- The refresh button's command
+- The reset button's command
