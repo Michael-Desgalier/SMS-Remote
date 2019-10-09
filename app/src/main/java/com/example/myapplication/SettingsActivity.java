@@ -77,7 +77,7 @@ public class SettingsActivity extends AppCompatActivity {
                 builder.setCancelable(true);
                 builder.setTitle("Help :");
                 builder.setMessage("" +
-                        "Use %numberInSeconds to set the timeout between the last command and the next command.\n\n" +
+                        "Use %numberInSeconds to set the timeout between the last command and the next command for Command 1, Command 2 and Command 3.\n\n" +
                         "If you don't need to set a timeout you have to write %0.\n\n" +
                         "Use %yourCommand after the timeout to execute a second command.\n\n" +
                         "For exemple:\n" +
