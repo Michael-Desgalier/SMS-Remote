@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.application.smsremote">
 
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
@@ -12,10 +12,10 @@
         android:roundIcon="@mipmap/icon_app"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name="com.application.smsremote.SettingsActivity"></activity>
 
         <receiver
-            android:name=".MyReceiver"
+            android:name="com.application.smsremote.MyReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -23,7 +23,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.application.smsremote.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
