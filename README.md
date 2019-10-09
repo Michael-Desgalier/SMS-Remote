@@ -1,5 +1,5 @@
 # SMS-Remote
-Mobile application to drive GSM module (GX155)
+Mobile application to drive GSM module (GX155).
 This app allows you to set multiple commands for 3 buttons.
 These commands will be sent by message to the phone number assigned in the settings.
 You can set the timeout between 2 commands and at the end of the last command.
