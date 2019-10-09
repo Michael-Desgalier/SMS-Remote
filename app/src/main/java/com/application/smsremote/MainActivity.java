@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
     private static final String CMD1 = "Command1";
     private static final String CMD2 = "Command2";
     private static final String CMD3 = "Command3";
-    private static final String BTN_NAME1 = "btnName1";
-    private static final String BTN_NAME2 = "btnName2";
-    private static final String BTN_NAME3 = "btnName3";
+    private static final String BTN_LABEL1 = "btnLabe1";
+    private static final String BTN_LABEL2 = "btnLabe2";
+    private static final String BTN_LABEL3 = "btnLabe3";
     private static final String RESET_CMD = "CommandReset";
     private static final String REFRESH_CMD = "CommandRefresh";
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     private final static int SEND_SMS_PERMISSION_REQUEST_CODE = 111;
     private final static int RECEIVE_SMS_PERMISSION_REQUEST_CODE = 0;
     private ImageButton btn1, btn2, btn3, btn1Clicked, btn2Clicked, btn3Clicked, btnReset, btnRefresh, btnSettings;
-    private TextView refreshHour, refreshDate, whiteBtnNbr1, whiteBtnNbr2, whiteBtnNbr3, btnName1, btnName2, btnName3;
+    private TextView refreshHour, refreshDate, whiteBtnNbr1, whiteBtnNbr2, whiteBtnNbr3, btnLabel1, btnLabel2, btnLabel3;
     private ImageView imgGreenStatus1, imgGreenStatus2, imgGreenStatus3, imgRedStatus1, imgRedStatus2, imgRedStatus3;
     private String phoneNumber;
     private int timeout = 0;
@@ -85,9 +85,9 @@ public class MainActivity extends AppCompatActivity {
         btn1Clicked = findViewById(R.id.btn1Clicked);
         btn2Clicked = findViewById(R.id.btn2Clicked);
         btn3Clicked = findViewById(R.id.btn3Clicked);
-        btnName1 = findViewById(R.id.btn1Name);
-        btnName2 = findViewById(R.id.btn2Name);
-        btnName3 = findViewById(R.id.btn3Name);
+        btnLabel1 = findViewById(R.id.btnLabel1);
+        btnLabel2 = findViewById(R.id.btnLabel2);
+        btnLabel3 = findViewById(R.id.btnLabel3);
         whiteBtnNbr1 = findViewById(R.id.whiteBtnNbr1);
         whiteBtnNbr2 = findViewById(R.id.whiteBtnNbr2);
         whiteBtnNbr3 = findViewById(R.id.whiteBtnNbr3);
@@ -486,9 +486,9 @@ public class MainActivity extends AppCompatActivity {
         cmd1 = sharedPreferences.getString(CMD1, "set out1 #1513");
         cmd2 = sharedPreferences.getString(CMD2, "set out2 #1513");
         cmd3 = sharedPreferences.getString(CMD3, "set out3 #1513");
-        loadBtnName1 = sharedPreferences.getString(BTN_NAME1, "Button 1");
-        loadBtnName2 = sharedPreferences.getString(BTN_NAME2, "Button 2");
-        loadBtnName3 = sharedPreferences.getString(BTN_NAME3, "Button 3");
+        loadBtnName1 = sharedPreferences.getString(BTN_LABEL1, "Button 1");
+        loadBtnName2 = sharedPreferences.getString(BTN_LABEL2, "Button 2");
+        loadBtnName3 = sharedPreferences.getString(BTN_LABEL3, "Button 3");
         msgReset = sharedPreferences.getString(RESET_CMD, "reset out1 out2 #1513");
         msgRefresh = sharedPreferences.getString(REFRESH_CMD, "status #1513");
 
@@ -496,9 +496,9 @@ public class MainActivity extends AppCompatActivity {
         cmd2Array = cmd2.split("%");
         cmd3Array = cmd3.split("%");
 
-        btnName1.setText(loadBtnName1);
-        btnName2.setText(loadBtnName2);
-        btnName3.setText(loadBtnName3);
+        btnLabel1.setText(loadBtnName1);
+        btnLabel2.setText(loadBtnName2);
+        btnLabel3.setText(loadBtnName3);
     }
 
     private class MyTask extends TimerTask {

@@ -192,7 +192,7 @@
             android:textColor="#FFFFFF"/>
 
         <TextView
-            android:id="@+id/btn1Name"
+            android:id="@+id/btnLabel1"
             android:layout_width="110dp"
             android:layout_height="80dp"
             android:layout_alignParentRight="true"
@@ -273,7 +273,7 @@
             android:textColor="#FFFFFF"/>
 
         <TextView
-            android:id="@+id/btn2Name"
+            android:id="@+id/btnLabel2"
             android:layout_width="110dp"
             android:layout_height="80dp"
             android:layout_alignParentRight="true"
@@ -330,7 +330,7 @@
             android:textColor="#FFFFFF"/>
 
         <TextView
-            android:id="@+id/btn3Name"
+            android:id="@+id/btnLabel3"
             android:layout_width="110dp"
             android:layout_height="80dp"
             android:layout_alignParentRight="true"
